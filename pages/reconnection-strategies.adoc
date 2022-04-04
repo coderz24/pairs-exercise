@@ -10,7 +10,7 @@ You can use any of these options to modify the reconnection behavior:
 
 * Fail Deployment (`failsDeployment`): Forces the deployment to fail if the connection fails, after the configured reconnection attempts are exhausted.
 * Reconnect (`reconnect`): Limits the number of reconnection attempts and the interval at which to execute them. For example, a count of 5 reconnection attempts at a `frequency` of every `4000` milliseconds (ms), defaults to 2 reconnection attempts at a frequency of `2000ms`.
-* Reconnect Forever (reconnect-forever): Attempts to reconnect at a given interval. For example, every 4000 ms for as long as the app runs, defaults to every 2000 ms. As there is no limit on the number of retries, no value for count is specified.
+* Reconnect Forever (`reconnect-forever`): Attempts to reconnect at a given interval. For example, every 4000 ms for as long as the app runs, defaults to every 2000 ms. As there is no limit on the number of retries, no value for count is specified.
 
 ## Examples 
 
